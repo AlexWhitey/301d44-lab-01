@@ -2,3 +2,18 @@
     box-sizing: border-box;
     text-align: center;
     }
+
+    html {
+        background: grey;
+    }
+
+    body {
+        max-width: 960px;
+        margin: auto;
+      }
+      div {position: relative;}
+      div > p {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+      }

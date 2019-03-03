@@ -1,160 +1,112 @@
 
-@media (min-width: 480px) and (max-width: 767px) {
+@media (max-width: 767px) {
 
-    html {
-        background: grey;
-    }
-
-    header{
-      outline: 1px solid black;
-      outline-offset: -1px;
-      height: 75px;
-      width: 480px;
-      margin: auto;
-    }
-    
-    p {
-        padding-top: 5%;
-    }
-   
-    main{
-      outline: 1px solid black;
-      outline-offset: -1px;
-      height: 980px;
-      width: 480px;
-      margin: auto;
-    }
-   
-    aside {
-      outline: 1px solid black;
-      outline-offset: -1px;
-      height: 150px;
-      width: 480px;
-    }
-   
-    #first{
-      outline: 1px solid black;
-      outline-offset: -1px;
-    }
-   
-    #cd li{
-      outline: 1px solid black;
-      outline-offset: -1px;
-      height: 125px;
-      width: 480px;
-    }
-   
-    #second{
-      outline: 1px solid black;
-      outline-offset: -1px;
-    }
-   
-    #efgh{
-      float:left;
-      height: 500px;
-      width: 480px;
-    }
-   
-    #efgh li{
-      outline: 1px solid black;
-      outline-offset: -1px;
-      height: 250px;
-      width: 240px;
-      float: left;
-    }
-   
-    footer {
-      clear: both;
-      outline: 1px solid black;
-      outline-offset: -1px;
-      height: 80px;
-      width: 480px;
-    }
+  body {
+    width: 480px;
+  }
+  #a {
+    background: #f45f42;
+    border: 1px solid black;
+    width: 480px;
+    height: 75px;
+  }
+  #b {
+   background: #ff0000; 
+   border: 1px solid black;
+   width: 480px;
+   height: 150px;
+  }
+  #c,#d {
+    border: 1px solid black;
+    width: 480px;
+    height: 125px;
+   }
+   #c {
+     background: #ff00d4;
+   }
+   #d {
+     background: #8500ff;
+   }
+  #e,#f,#g,#h {
+   border: 1px solid black;
+   width: 240px;
+   height: 250px;
+   float: left;
+  }
+  #e {
+    background: #f442b3;
+  }
+  #f {
+   background: #416df4;
+  }
+  #g {
+   background: #41f4e2;
+  }
+  #h {
+   background: #f4d641;
+  }
+  #i {
+   background: #a3f441; 
+   border: 1px solid black;
+   width: 480px;
+   height: 80px;
+   float: left;
+  }
    }
 
    @media (min-width: 768px) {
-
-    html {
-        background: lightblue;
-    }
-
-    header{
-      outline: 1px dashed black;
-      outline-offset: -1px;
-      height: 100px;
-      width: 960px;
-      margin: auto;
-    }
-
-    p {
-        padding-top: 5%;
-    }
-   
-    main{
-      outline: 1px dashed black;
-      outline-offset: -1px;
-      height: 600px;
-      width: 960px;
-      margin: auto;
-    }
-   
-    aside {
-      outline: 1px dashed black;
-      outline-offset: -1px;
-      height: 600px;
+     body {
+       width: 960px;
+       height: 700px;
+     }
+     #a {
+       background: #a3f441;
+       border: 1px solid black;
+       width: 960px;
+       height: 100px;
+     }
+     #b {
+      background: #f4d641; 
+      border: 1px solid black;
       width: 200px;
+      height: 600px;
       float: left;
-    }
-   
-    #first{
-      outline: 1px dashed black;
-      outline-offset: -1px;
-      height: 200px;
-      width: 760px;
-      float: right;
-    }
-   
-    #cd li{
-      outline: 1px dashed black;
-      outline-offset: -1px;
-      height: 200px;
-      width: 380px;
-    }
-   
-    #c{
-      float: left;
-    }
-   
-    #d{
-      float:right;
-    }
-   
-    #second{
-      outline: 1px dashed black;
-      outline-offset: -1px;
-      height: 250px;
-      width: 760px;
-      float: right;
-    }
-   
-    #efgh{
-      float:left;
-    }
-   
-    #efgh li{
-      float: left;
-      outline: 1px dashed black;
-      outline-offset: -1px;
-      padding: 0px;
-      height: 250px;
+     }
+     #c,#d {
+       border: 1px solid black;
+       width: 380px;
+       height: 200px;
+       float: left;
+      }
+      #c {
+        background: #41f4e2;
+      }
+      #d {
+        background: #416df4;
+      }
+     #e,#f,#g,#h {
+      border: 1px solid black;
       width: 190px;
-    }
-   
-    footer {
-      float: right;
-      outline: 1px dashed black;
-      outline-offset: -1px;
-      height: 150px;
+      height: 250px;
+      float: left;
+     }
+     #e {
+       background: #b88ae2;
+     }
+     #f {
+      background: #8500ff;
+     }
+     #g {
+      background: #ff00d4;
+     }
+     #h {
+      background: #ff0000;
+     }
+     #i {
+      background: #f45f42; 
+      border: 1px solid black;
       width: 760px;
-    }
+      height: 150px;
+      float: left;
+     }
    }
